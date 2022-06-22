@@ -1,11 +1,11 @@
 .container-chatbox {
   position: relative;
+  height: -webkit-fill-available;
   .container-message {
     padding: 1rem;
     background-color: #eee;
-    height: -webkit-fill-available;
     min-height: 100vh;
-    overflow-y: hidden;
+    overflow-y: scroll;
     padding-top: 7.5rem;
     scroll-behavior: smooth;
     padding-bottom: 3.5rem;
@@ -27,7 +27,7 @@
       height: 1rem;
       z-index: 11;
       background-color: #40a9ff;
-      left: 0;
+      left: 0rem;
       top: 0rem;
     }
   }
